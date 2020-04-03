@@ -18,7 +18,7 @@ class Doctor
  end
   
   def appointment
-    @appointments
+    Appointment.all.select
   end
   
   def patients
